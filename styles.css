@@ -1,0 +1,100 @@
+#mainHeading {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px #FF0000;
+}
+
+#paragraph1 {
+    color: darkcyan;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+}
+
+#paragraph2 {
+    color: black;
+    margin-left: 40%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+#paragraph3 {
+    color: black;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+#heading1 {
+    color: blue;
+    margin-right: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+    animation: rotation 5s infinite linear;
+}
+
+#img2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20%;
+}
+
+#css {
+    width: 200px;
+    height: 200px;
+}
+
+#html {
+    width: 200px;
+    height: 200px;
+}
+
+#js {
+    width: 200px;
+    height: 200px;
+}
+
+#table {
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#card_canvas:hover {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#list {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    margin-left: 40%;
+    color: blueviolet;
+}
+
+#srcIframe {
+    margin-left: 450px;
+    width: 600px;
+    height: 400px;
+}
