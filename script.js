@@ -9,3 +9,7 @@ function clickOnHtml() {
 function clickOnJs() {
     window.location.href = 'js.html';
 }
+
+function cardClick() {
+
+}
