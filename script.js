@@ -5,18 +5,7 @@ if (window.location.href.match('index.html')) {
 
         var message = "If you would like to get started as a front - end web developer, you are going to LOVE this documentation!";
         var msg1 = document.getElementById("msg1");
-        var len1 = message.length;
-        var i1 = 0;
-
-        var interval = setInterval(() => {
-
-            msg1.innerHTML = message.substr(0, i1);
-            i1++;
-
-            if (i1 > len1)
-                clearInterval(interval);
-
-        }, 100);
+        msg1.innerHTML = message;
 
 
 
