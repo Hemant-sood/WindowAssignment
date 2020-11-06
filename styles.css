@@ -159,3 +159,15 @@ body {
 .card:hover {
     box-shadow: 20px 30px 20px 20px rgba(0, 0, 0, 0.2);
 }
+
+#homeImg {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+#homeImg:hover {
+    float: left;
+    width: 100px;
+    height: 100px;
+}

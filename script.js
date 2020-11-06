@@ -157,3 +157,7 @@ function clickOnHtml() {
 function clickOnJs() {
     window.location.href = 'js.html';
 }
+
+function goToHome() {
+    window.location.href = 'index.html';
+}
