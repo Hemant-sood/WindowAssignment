@@ -30,21 +30,21 @@
     text-shadow: 0px 0px #FF0000;
 }
 
-#paragraph1 {
+.paragraph1 {
     color: darkcyan;
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 25px;
+    font-size: 28px;
 }
 
-#paragraph2 {
+.paragraph2 {
     color: black;
     margin-left: 40%;
     margin-right: 10%;
     font-size: 20px;
 }
 
-#paragraph3 {
+.paragraph3 {
     color: black;
     margin-left: 20%;
     margin-right: 10%;
