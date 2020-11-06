@@ -1,34 +1,3 @@
-if (window.location.href.match('index.html')) {
-
-
-    window.onload = function() {
-
-        var message = "If you would like to get started as a front - end web developer, you are going to LOVE this documentation!";
-        var msg1 = document.getElementById("msg1");
-        msg1.innerHTML = message;
-
-
-
-        var message2 = "Front - end web development, also known as client - side development is the practice of producing HTML, CSS and JavaScript  for a website or Web Application so that a user can see and interact with them directly.The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.The objective of designing a site is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant.This is further complicated by the fact that users now use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site.";
-        var msg2 = document.getElementById("msg2");
-        var len2 = message2.length;
-        var i2 = 0
-
-        var interval2 = setInterval(() => {
-
-            msg2.innerHTML = message2.substr(0, i2);
-            i2++;
-
-            if (i2 > len2)
-                clearInterval(interval2);
-
-        }, 4);
-
-    }
-
-
-}
-
 if (window.location.href.match('css.html')) {
     window.onload = function() {
         var message3 = "CSS is used to control the style of a web document in a simple and easy way.CSS is the acronym for 'Cascading Style Sheet '.This tutorial covers both the versions CSS1, CSS2 and CSS3, and gives a complete understanding of CSS, starting from its basics to advanced concepts.";
