@@ -39,14 +39,28 @@
 
 .paragraph2 {
     color: black;
-    margin-left: 40%;
-    margin-right: 10%;
     font-size: 20px;
+}
+
+.box {
+    background-color: lightgrey;
+    border: 15px solid #33CCFF;
+    padding: 30px;
+    margin-left: 34%;
+    margin-right: 10%;
+}
+
+.box2 {
+    background-color: lightgrey;
+    border: 15px solid #33CCFF;
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 
 .paragraph3 {
     color: black;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
 }
@@ -90,7 +104,7 @@
     width: 200px;
     height: 200px;
     float: left;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 15%;
     animation: rotation 5s infinite linear;
 }
