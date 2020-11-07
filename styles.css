@@ -58,6 +58,26 @@
     margin-right: 10%;
 }
 
+.box3 {
+    background-color: black;
+    border: 15px solid #33CCFF;
+    padding-left: 20%;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.box4 {
+    background-color: black;
+    border: 15px solid #33CCFF;
+    padding-left: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
 .paragraph3 {
     color: black;
     margin-left: 10%;
